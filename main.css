@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #e84610;
+    transform: translate(50px,50px);
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    margin: 50px;
+    transition-timing-funcion: ease-in;
+    transition: transform 1s;
+}
+  
+
+img:hover {
+   transform: scale(2);
+}
+   
